@@ -35,7 +35,7 @@ class Solution:
                 if nums[i] + nums[j] == target:
                     return [i, j]
 
-if __name__ == '__main__':
+if __name__ == '1. Two Sum':
     s = Solution
     nums1, target1 = [2, 7, 11, 15], 9
     assert s.twoSum(nums1, target1) == [0, 1]
