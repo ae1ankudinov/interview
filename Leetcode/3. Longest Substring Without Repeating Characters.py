@@ -53,3 +53,4 @@ assert s.lengthOfLongestSubstring(s3) == out3
 s4 = 'dvdf'
 out4 = 3
 assert s.lengthOfLongestSubstring(s4) == out4
+
