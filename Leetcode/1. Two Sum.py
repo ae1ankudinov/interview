@@ -57,3 +57,4 @@ nums2, target2, out2 = [3, 2, 4], 6, [1, 2]
 assert s.twoSum(nums2, target2) == out2
 nums3, target3, out3 = [3, 3], 6, [0, 1]
 assert s.twoSum(nums3, target3) == out3
+
