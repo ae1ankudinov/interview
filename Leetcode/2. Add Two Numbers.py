@@ -47,6 +47,8 @@ class ListNode:
         self.val = val
         self.next = next
 
+# Time complexity - O(l1+l2) = O(n)
+# Space complexity - O(max(l1, l2)) = O(n)
 class Solution:
     def addTwoNumbers(self, l1: [ListNode], l2: [ListNode]) -> [ListNode]:
         dummy = cur = ListNode()
